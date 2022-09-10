@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap02</title>
+
+    <!-- BOOTSTRAP css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- FONTAWESOME CSS LINK    -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- SLICK JS LINK -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- main css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- top header section part start-->
+    <section id="header">
+        <div class="container-fluid">
+            <div class="d-flex flex-nowrap">
+                <div class="col-md-6 col-sm-6">
+                    <div class="top_left_header">
+                        <select>
+                            <option>ENG</option>
+                            <option>BN</option>
+                        </select>
+                        <select id="border">
+                            <option>BDT ৳</option>
+                            <option>USD $</option>
+                        </select>
+                        <P class="d-inline-block">Toll Free:<a href="callto:+123 4567 8900">+123 4567 8900</a></P>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="top_right_header">
+                        <ul class="d-flex flex-nowrap justify-content-end">
+                            <li><a href="#">
+                                    <i class="fas fa-heart"></i>
+                                    Wishlist
+                                </a></li>
+                            <li id="border"><a href="#">
+                                    <i class="fas fa-user"></i>
+                                    My Account
+                                </a></li>
+                            <li><a href="#">
+                                    Log in / Register
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // top header section part end-->
+
+    <!-- navbar section part start-->
+    <nav id="nav" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img class="img-fluid" src="img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu_bar">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="menu_bar">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item"><a class="active nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Men</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Women</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Accesories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="search_bar">
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+                    <i class="fas fa-shopping-bag"></i>
+                    2 items
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- // navbar section part end-->
+
+    <!-- banner section part start-->
+    <section id="banner">
+        <div class="slider">
+            <div class="slider_item col-lg-12" style="background: url('img/banner01.png');background-position: center; background-size: cover;">
+                <div class="container d-flex align-items-center" style="height:100%;">
+                    <div class="banner_content col-lg-5">
+                        <h2>2017</h2>
+                        <h3>Trendy Design</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
+                        </p>
+                        <a href="#">View more</a>
+                        <a href="#">Purchase</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider_item col-lg-12" style="background: url('img/banner2.jpg');background-position: center; background-size: cover;">
+                <div class="container d-flex align-items-center" style="height:100%;">
+                    <div class="banner_content col-lg-5">
+                        <h2>2017</h2>
+                        <h3>Trendy Design</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
+                        </p>
+                        <a href="#">View more</a>
+                        <a href="#">Purchase</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider_item col-lg-12" style="background: url('img/banner3.jpg');background-position: center; background-size: cover;">
+                <div class="container d-flex align-items-center" style="height:100%;">
+                    <div class="banner_content col-lg-5">
+                        <h2>2017</h2>
+                        <h3>Trendy Design</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
+                        </p>
+                        <a href="#">View more</a>
+                        <a href="#">Purchase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // banner section part end-->
+
+    <!-- facility section part start-->
+    <section id="facility">
+        <div class="container">
+            <div class="d-flex flex-wrap text-center">
+                <div class="facility_item col-lg-4 col-sm-12">
+                    <div class="header">
+                        <i class="fas fa-truck fa-2xl"></i>
+                        <h2 class="d-inline">Free Shipping</h2>
+                    </div>
+                    <div class="content">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="facility_item col-lg-4 col-sm-12" id="middle_item">
+                    <div class="header">
+                        <i class="far fa-life-ring fa-2xl"></i>
+                        <h2 class="d-inline">24/7 Support</h2>
+                    </div>
+                    <div class="content">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="facility_item col-lg-4 col-sm-12">
+                    <div class="header">
+                        <i class="far fa-money-bill-alt fa-2xl"></i>
+                        <h2 class="d-inline">Free Shipping</h2>
+                    </div>
+                    <div class="content">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // facility section part end-->
+
+    <!-- option section part start-->
+    <section id="option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="option_item">
+                        <img class="img-fluid" src="img/option01.jpg" alt="">
+                        <div class="overlay col-lg-10 col-sm-6">
+                            <h2>New</h2>
+                            <h3>jeans T-shirt</h3>
+                            <a href="#">shop now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="option_item">
+                        <img class="img-fluid" src="img/0ption02.png" alt="">
+                        <div class="overlay col-lg-10 col-sm-6">
+                            <h2>New</h2>
+                            <h3>jeans T-shirt</h3>
+                            <a href="#">shop now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="option_item">
+                        <img class="img-fluid" src="img/option03.png" alt="">
+                        <div class="overlay col-lg-10 col-sm-6">
+                            <h2>New</h2>
+                            <h3>jeans T-shirt</h3>
+                            <a href="#">shop now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // option section part end-->
+
+    <!-- featured section part start-->
+    <section id="featured">
+        <div class="container">
+            <div class="header_part col-sm-12 text-center">
+                <h2>Featured Products</h2>
+            </div>
+
+            <div class="menu_bar_for_featured_produts col-sm-12">
+                <ul class="d-flex justify-content-center">
+                    <li class="left_border">All</li>
+                    <li class="left_border">Men</li>
+                    <li class="font_color">Women</li>
+                    <li class="left_border">Children</li>
+                </ul>
+            </div>
+            <div class="products_item_part d-flex flex-wrap justify-content-between">
+                <div class="col-lg-3 col-md-6 col-sm-5 d-flex justify-content-center my-2">
+                    <div class="products_item col-lg-10 col-md-8">
+                        <div class="img_part">
+                            <img class="img-fluid" src="img/product01.png" alt="">
+                            <div class="overlay col-sm-4 d-flex justify-content-center">
+                                <ul>
+                                    <li><a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="fas fa-heart"></i>
+
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content d-flex justify-content-between">
+                            <p>Woolen T-Shirt</p>
+                            <p>$ 99.00</p>
+                        </div>
+                        <div class="ratings">
+                            <ul class="d-flex">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-5 d-flex justify-content-center my-2">
+                    <div class="products_item col-lg-10 col-md-8">
+                        <div class="img_part">
+                            <img class="img-fluid" src="img/product02.png" alt="">
+                            <div class="overlay col-sm-4 d-flex justify-content-center">
+                                <ul>
+                                    <li><a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="fas fa-heart"></i>
+
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content d-flex justify-content-between">
+                            <p>Woolen T-Shirt</p>
+                        </div>
+                        <div class="ratings">
+                            <ul class="d-flex">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-5 d-flex justify-content-center my-2">
+                    <div class="products_item col-lg-10 col-md-8">
+                        <div class="img_part">
+                            <img class="img-fluid" src="img/product03.png" alt="">
+                            <div class="overlay col-sm-4 d-flex justify-content-center">
+                                <ul>
+                                    <li><a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="fas fa-heart"></i>
+
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content d-flex justify-content-between">
+                            <p>Woolen T-Shirt</p>
+                            <p>$ 99.00</p>
+                        </div>
+                        <div class="ratings">
+                            <ul class="d-flex">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-5 d-flex justify-content-center my-2">
+                    <div class="products_item col-lg-10 col-md-8">
+                        <div class="img_part">
+                            <img class="img-fluid" src="img/product04.png" alt="">
+                            <div class="overlay col-sm-4 d-flex justify-content-center">
+                                <ul>
+                                    <li><a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="fas fa-heart"></i>
+
+                                        </a></li>
+                                    <li><a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content d-flex justify-content-between">
+                            <p>Woolen T-Shirt</p>
+                            <p>$ 99.00</p>
+                        </div>
+                        <div class="ratings">
+                            <ul class="d-flex">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // featured section part end-->
+
+    <!-- jquery link -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- bootsrap js link -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- slick js link/ -->
+    <script src="js/slick.min.js"></script>
+    <!-- main js link -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
